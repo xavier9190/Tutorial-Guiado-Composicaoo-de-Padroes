@@ -55,3 +55,8 @@ public class Main {
         logger.log("Execução da atividade finalizada.");
     }
 }
+// Pergunta: Como a separação entre a estrutura do Composite e a lógica de percurso do Iterator 
+// facilitatou a adição dessa nova regra sem quebrar o código do cliente?
+// Resposta: Pelo fato de você separar a arvore e leitura dessa faz com que não 
+// tenha que alterar códigos que ja funcionam, assim fazendo uma implementação 
+// mais "limpa" e fazendo com que o código seja mais escalável.
